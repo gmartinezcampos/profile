@@ -29,10 +29,12 @@ h1 {
 
 p {
   font-size: 14px;
+  font-family: Raleway, sans-serif;
 }
 
 .nomad p {
   text-align: center;
+  font-family: Raleway, sans-serif;
 }
 
 h2 {
@@ -44,6 +46,7 @@ h2 {
 
 .photo_cards {
   width: 300px;
+  padding: 10px;
 
 }
 
@@ -58,6 +61,7 @@ h2 {
 .icons:hover {
   text-decoration: none;
   color: #0ba04b;
+  font-weight: 100;
 }
 
 ul {
@@ -92,7 +96,7 @@ li {
 .icons_box {
   position: absolute;
   bottom: 1%;
-  left: 42%;
+  left: 38%;
   padding: 0;
 }
 
@@ -131,19 +135,23 @@ li {
 }
 
 .travels{
-  width: 100%;
-  background-color: #ffff;
-  height: calc(100vh - 60px);
-  min-height: 500px;
-  z-index: 3;
-  overflow: hidden;
-  display: block;
-  background-size: 100%;
+  background-color: #0ba04b;
+  opacity: 20%;
+  border-top: 70px solid #fff;
+  height: 80vh;
+  min-height: 300px;
+  border-bottom: 0!important;
+  margin-bottom: 40px;
+  padding: 100px 0;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-top: 10px;
-  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.data p{
+  padding: 0;
 
 }
 
